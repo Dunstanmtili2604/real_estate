@@ -1,0 +1,30 @@
+
+        .tab-head{
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+          }
+          .nav-item a:focus{
+            outline: unset;
+          }
+          .nav-item a:hover{
+            border: 1px solid #fff !important;
+          }
+          .nav-item a{
+            color: black !important;
+            font-weight: 600;
+            padding-left: 8px;
+            padding-right: 8px;
+          }
+          .nav-item .active{
+            color: #000 !important;
+            border:none !important;
+            border-bottom: 3px solid #faa21c !important;
+            font-weight: 600;
+          }
+          .nav-item .active:hover{
+            border:none !important;
+            border-bottom: 3px solid #faa21c !important;
+          }
+          .nav-tabs{
+            border-bottom: none !important; 
+          }

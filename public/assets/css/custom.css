@@ -1,0 +1,81 @@
+.req {
+    color:red;
+}
+
+.padding-top-20 {
+    padding-top: 20px
+}
+
+.padding-top-28 {
+    padding-top: 28px
+}
+
+.spinner {
+    display: inline-block;
+    opacity: 0;
+    width: 0;
+    -webkit-transition: opacity 0.25s, width 0.25s;
+    -moz-transition: opacity 0.25s, width 0.25s;
+    -o-transition: opacity 0.25s, width 0.25s;
+    transition: opacity 0.25s, width 0.25s;
+}
+
+.has-spinner.active {
+    cursor: progress;
+}
+
+.has-spinner.active .spinner {
+    opacity: 1;
+    width: auto;
+}
+
+.has-spinner.btn.active .spinner {
+    min-width: 20px;
+}
+nav1 {
+    background:transparent;
+    
+    
+    
+    display: flex;
+    overflow: hidden;
+    overflow-x: auto;
+    position: relative;
+  }
+  
+  .me-dy {
+    color: #83818c;
+    font-family: arial, sans-serif;
+    padding: 20px;
+    margin: 0 6px;
+    position: relative;
+  }
+  
+  .me-dy:before {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    background:transparent;
+  
+    height: 2px;
+    width: 100%;
+    /*border-radius: 8px 8px 0 0;*/
+    left: 0;
+    transition: .3s;
+  }
+  
+  .me-dy:not(.is-active):hover:before {
+    bottom: 0;
+  }
+  .me-dy:not(.is-active):hover {
+    color: #333;
+  }
+  
+  .nav-indicator {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    transition: .4s;
+    /*border-radius: 8px 8px 0 0;*/
+  }
